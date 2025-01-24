@@ -1,7 +1,7 @@
 <template>
     <div class="bg-blue-500 text-2xl text-center">
         Hello
-        <Button :label="count.value"></Button>
+        <Button @click="onClicked">{{ count.value }}</Button>
     </div>
 </template>
 
